@@ -6,7 +6,10 @@ Pandas ( for sorting ); <br>
 TinyDB ( for storing data ); <br>
 win10toast ( for notification )
 
-## Usage
+## Scheduler usage
+Run the program in terminal and it will loop every one minute to check if there exist a schedule at that exact time.
+
+## Scheduler functions
 ### insert
 Insert a schedule into the program, you can't input a schedule at the same date and time. <br>
 The repeat argument is still in development and has no effect.
