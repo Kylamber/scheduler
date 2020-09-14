@@ -4,7 +4,7 @@ A simple scheduler, CLI based.
 ## Requirements
 Pandas ( for sorting ); <br>
 TinyDB ( for storing data ); <br>
-win10toast ( for notification );
+win10toast ( for notification )
 
 ## Usage
 ### insert
