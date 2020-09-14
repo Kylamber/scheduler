@@ -1,3 +1,8 @@
+'''
+Had the idea to create something like Google Calendar since it's
+quite annoying to use. So I created my inferior one. Which is easier
+for me to use since I'm the creator.
+'''
 import time
 import pandas as pd
 import datetime as dt
@@ -50,6 +55,7 @@ def remove(date, time):
         
 def checktime():
     '''
+    Grab schedule in the current time.
     '''
     altered_time = dt.datetime.now()
     time = ''.join([str(altered_time.hour).zfill(2),
@@ -62,6 +68,9 @@ def checktime():
     return result
 
 def schedules():
+    '''
+    List out the schedules, sorted.
+    '''
     print('Schedules: ')
     container = {}
     darray = []
