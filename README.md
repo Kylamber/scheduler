@@ -7,7 +7,7 @@ A simple scheduler, CLI based.
 - win10toast ( for notification )
 
 ## Scheduler Usage
-Run the program in terminal and it will loop every one minute to check if there exist a schedule at that exact time.
+Run the program in terminal and it will loop every one minute to check if there exist a schedule at that time.
 
 ## Scheduler Functions
 ### insert
