@@ -9,7 +9,7 @@ import datetime as dt
 from tinydb import TinyDB, Query
 from win10toast import ToastNotifier
 
-db = TinyDB('database/db.json')
+db = TinyDB('scheduler/db.json')
 schedule = Query()
 
 def insert(title, date, time, end, repeat='no'):
