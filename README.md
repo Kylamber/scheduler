@@ -2,9 +2,9 @@
 A simple scheduler, CLI based.
 
 ## Requirements
-Pandas ( for sorting ); <br>
-TinyDB ( for storing data ); <br>
-win10toast ( for notification )
+- Pandas ( for sorting )
+- TinyDB ( for storing data )
+- win10toast ( for notification )
 
 ## Scheduler Usage
 Run the program in terminal and it will loop every one minute to check if there exist a schedule at that exact time.
